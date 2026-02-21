@@ -20,24 +20,22 @@ Click this links to view the quick insights for the Awesome Clinic Data Report
 
 # 📂Overview
 
-Welcome to my exploration of Awesome Clinic Data. The purpose of this analysis is to answer key business auestions and using Power BI using data Awesome Clinic's from the Data.
+This project analyzes operational performance at Awesome Clinic using Power BI. The goal was to evaluate patient volume, demographic trends, departmental demand, referral behavior, and inpatient resource utilization over a two-month period.
 
-This analysis evaluates patient activity, demographic distribution, departmental demand, and doctor-level performance at Awesome Clinic over the most recent period.
+Rather than focusing only on descriptive metrics, this analysis translates raw healthcare data into operational decisions. The report highlights workload distribution, referral variability, bed utilization patterns, and short-term demand fluctuations to identify areas for process optimization and resource planning.
 
-The analysis utilizes data from a <a href="https://www.youtube.com/live/bokH-VVB1fs?si=G-klniNYtpAMzWJt" rel="nofollow">live Power BI masterclass tutorial by Chandoo on YouTube</a>, offering a rich understanding of raw data exploration to creating meaningful business insights using data modeling, DAX measures, and interactive visuals in Power BI.
+The dataset was modeled and transformed using Power Query, and performance measures were built using DAX to support interactive KPI tracking and operational insights. It utilizes data from a <a href="https://www.youtube.com/live/bokH-VVB1fs?si=G-klniNYtpAMzWJt" rel="nofollow">live Power BI masterclass tutorial by Chandoo on YouTube</a>
 
 
-# 🔧Questions Answered
-Below are the questions I answered in this report:
+🎯 Business Objective
 
-1. How many patients did the hospital have in the two months period?
-2. What is the trend? (Where there the same number of patients everyday or was there like a spike on specific days?)
-3. Who are the patients?
-- Gender breakdown. Male Vs female
-- The age groupings of the patients.
-4. How busy are the various departments?
-5. How busy are the doctors? (Workload balance)
-6. In VS. Out patients. In patients are patients who didn't leave on the some day. An out patient on the other hand is basically a patient that came in and left on the same day.
+The primary objective of this analysis was to answer:
+
+- How stable is patient demand?
+- Are departments evenly utilized?
+- Are referral practices consistent across doctors?
+- Is inpatient capacity being used efficiently?
+The report is designed to support operational leadership in improving workload balance, referral consistency, and resource forecasting.
 
 # 🧰Tools Used for the Analysis
 This analysis leverages **Power BI** to examine Awesome Clinic's data.
@@ -45,9 +43,9 @@ This analysis leverages **Power BI** to examine Awesome Clinic's data.
 # 🦵Steps Taken for the Analysis
 Sveral key steps were taken for the performance of this analysis:
 
-1. Loading and transforming the various datasets
-2. Data modeling and application of few cleanup sateps using the PowerQuery editor
-3. The application of practical DAX measures
+1. Extracting, loading, and transforming the various datasets.
+2. Data modeling and application of a few cleanup steps using the Power Query Editor
+3. Application of practical DAX measures
 4. Creating interactive visuals and KPI cards
 5. Building the report/dashboard
 
